@@ -121,3 +121,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
+LOGIN_REDIRECT_URL = '/'
